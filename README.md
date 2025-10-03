@@ -12,10 +12,10 @@ Predict when customers will churn, upgrade or buy again - with solid statistics
 - How cesoring appears in marketing data
 
 2. **Core Concepts**
-- Survival function \(S(t)\)
-- Hazard function \(h(t)\) and cumulative hazard \(H(t)\) 
+- Survival function $$S(t)$$
+- Hazard function $$h(t)$$ and cumulative hazard $$ H(t) $$ 
 - Right, left and intervak censoring
-- Data structure: \((T, \delta, X)\)
+- Data structure: $$((T, \delta, X)) $$
 
 3. **Exploratory Survival Analysis**
 - Kaplan-Meier estimator (derivation & Greenwood variance)
@@ -29,14 +29,14 @@ Predict when customers will churn, upgrade or buy again - with solid statistics
 
 
 4. **Cox Proportional Hazards** 
-- Model \(h(t|X)=h_0(t)\exp(\beta^\top X)\)
+- Model $$h(t|X)=h_0(t)\exp(\beta^\top X)$$
 - Partial likelihood & score equations
 - Interpreting hazard ratios for marketing covariates
 - Checking the proportional hazards assummption (Schoenfeld residuals, time-varying effects)
 
 5. **Parametric and Accelerated Failiure Time Models (AFT) Models**
 - Exponential, Weibull, Log-normal, Log-logistic
-- AFT model: \(\log T = X\beta+\sigma\varepsilon\)
+- AFT model: $$(\log T = X\beta+\sigma\varepsilon\$$
 - Model Selection using AIC/BIC
 
 6. **Model Evaluation Checklist**
