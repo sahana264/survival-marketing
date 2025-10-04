@@ -14,7 +14,7 @@ Predict when customers will churn, upgrade or buy again - with solid statistics
 2. **Core Concepts**
 - Survival function $$S(t)$$
 - Hazard function $$h(t)$$ and cumulative hazard $$H(t)$$ 
-- Right, left and intervak censoring
+- Right, left and interval censoring
 - Data structure: $$((T, \delta, X)) $$
 
 3. **Exploratory Survival Analysis**
