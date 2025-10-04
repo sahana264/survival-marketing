@@ -57,7 +57,7 @@ Predict when customers will churn, upgrade or buy again - with solid statistics
 8. **Boosted Survival Models**
 - Gradient boosting with Cox-Partial likelihood
 - XGBoost / LightGBM AFT survival objectives
-- **Novel** - CatBoost with custom survival loss (great for categorical marketing features)
+- CatBoost with custom survival loss (great for categorical marketing features)
 
 9. **Deep Survival Models**
 - DeepSurv (neural network + Cox loss)
